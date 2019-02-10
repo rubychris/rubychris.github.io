@@ -11,10 +11,21 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Python
 
+class My_Name:
+  
+  def __init__(self):
+    self.first_name = Chris
+    self.last_name = Ruby
+  def __str__(self):
+    return "First Name: {} \tLast Name: {}".format(self.first_name, self.last_name)
+
+def(main)
+  chris = My_Name()
+  print(chris)
+  
+  
 - Bulleted
 - List
 
