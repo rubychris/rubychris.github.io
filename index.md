@@ -9,9 +9,11 @@ class My_Name:
   def __str__(self):
     return "First Name: {} \tLast Name: {}".format(self.first_name, self.last_name)
 
-def(main)
+def main():
   chris = My_Name()
   print(chris)
+  
+main()
   
 ````
 
